@@ -1,0 +1,23 @@
+plugins {
+    id 'java-library'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.10.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.10.0'
+    testImplementation 'io.cucumber:cucumber-java:7.14.0'
+    testImplementation 'io.cucumber:cucumber-junit-platform-engine:7.14.0'
+    testImplementation 'org.junit.platform:junit-platform-suite:1.10.0'
+    testImplementation 'org.seleniumhq.selenium:selenium-java:4.14.1'
+    testImplementation 'io.github.bonigarcia:webdrivermanager:5.8.0'
+}
+
+test {
+    useJUnitPlatform()
+    // Ensure tests are always run
+    outputs.upToDateWhen { false }
+}
