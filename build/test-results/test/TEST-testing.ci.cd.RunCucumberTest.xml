@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="testing.ci.cd.RunCucumberTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-08-11T20:42:24.033Z" hostname="AR-IT24784" time="4.628">
+<testsuite name="testing.ci.cd.RunCucumberTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-08-11T20:45:33.873Z" hostname="AR-IT24784" time="4.089">
   <properties/>
-  <testcase name="Open a Millanel Web Page &amp; search product" classname="testing.ci.cd.RunCucumberTest" time="4.628"/>
+  <testcase name="Open a Millanel Web Page &amp; search product" classname="testing.ci.cd.RunCucumberTest" time="4.089"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
-Aug 11, 2025 5:42:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 11, 2025 5:45:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 139
-Aug 11, 2025 5:42:26 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Aug 11, 2025 5:45:36 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 139.0.7258.66. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.14.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
 </testsuite>
